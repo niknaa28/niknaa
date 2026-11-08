@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hanik Nafisah | Profil Mahasiswa</title>
+<meta name="description" content="Profil Hanik Nafisah, mahasiswa Manajemen Informasi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#ec2f85;--black:#0d0d0d;--cream:#f4efe9;--white:#fff;
+--display:'Anton','Impact','Arial Narrow',sans-serif;--brush:'Permanent Marker','Brush Script MT',cursive;--hand:'Caveat','Comic Sans MS',cursive;--body:'Inter','Helvetica Neue',Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--cream);color:var(--black);line-height:1.55;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:3px solid var(--pink);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.pink{color:var(--pink)}
+.brush{font-family:var(--brush);color:var(--pink);font-style:normal}
+.btn{display:inline-flex;align-items:center;gap:12px;background:var(--black);color:var(--white);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:15px 26px;transition:transform .2s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--pink)}
+.btn.pk{background:var(--pink)}
+.btn.pk:hover{box-shadow:4px 4px 0 var(--white)}
+ 
+/* NAV */
+nav{position:relative;z-index:5;padding:20px 0}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-family:var(--display);font-size:25px;line-height:.95;text-transform:uppercase;letter-spacing:.01em}
+.logo span{display:block;font-family:var(--brush);color:var(--pink);text-transform:none;font-size:23px;margin-left:12px}
+nav ul{display:flex;gap:30px;list-style:none;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+nav ul a:hover{color:var(--pink)}
+nav .btn{padding:11px 22px;font-size:11px}
+ 
+/* HERO */
+.hero{position:relative;padding:20px 0 120px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center;position:relative}
+.tag{display:inline-block;background:var(--black);color:var(--white);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:9px 14px;margin-bottom:22px}
+.tag b{color:var(--pink);font-family:var(--brush);font-weight:400;text-decoration:underline;text-underline-offset:3px;font-size:13px}
+h1{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(54px,8vw,100px);line-height:.95}
+h1 .brush{display:block;font-size:.88em;text-transform:none;margin:6px 0 4px;transform:rotate(-3deg);text-decoration:underline;text-decoration-thickness:5px;text-underline-offset:10px}
+.lead{max-width:420px;margin:30px 0 8px;font-size:15px}
+.lead em{display:block;margin-top:14px;font-style:normal;font-weight:600}
+.cta{display:flex;align-items:center;gap:20px;margin-top:26px;flex-wrap:wrap}
+.cta .hand{font-family:var(--hand);font-size:22px;line-height:1;transform:rotate(-5deg)}
+.photo{position:relative;justify-self:center;width:min(100%,400px)}
+.photo .frame{background:var(--white);padding:12px 12px 14px;transform:rotate(2.5deg);box-shadow:0 18px 40px rgba(0,0,0,.28)}
+.photo img{width:100%;aspect-ratio:3/4.1;object-fit:cover;object-position:center 12%}
+.photo .tape{position:absolute;top:-14px;left:50%;width:110px;height:30px;background:rgba(236,47,133,.75);transform:translateX(-50%) rotate(-4deg);z-index:2}
+.note{position:absolute;right:-30px;top:46%;background:#e9e4dc;padding:16px 18px;font-family:var(--hand);font-weight:700;font-size:21px;line-height:1.15;transform:rotate(3deg);box-shadow:0 8px 20px rgba(0,0,0,.2);z-index:3;clip-path:polygon(0 0,100% 2%,98% 100%,3% 97%)}
+.sticker{position:absolute;right:-24px;bottom:-62px;width:134px;height:134px;z-index:4;animation:spin 26s linear infinite}
+.spray{position:absolute;right:-60px;top:-40px;width:200px;opacity:.9;z-index:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+ 
+/* BLACK SECTIONS (sobek) */
+.black{background:var(--black);color:var(--white);position:relative;
+clip-path:polygon(0 10px,4% 2px,9% 12px,14% 4px,20% 14px,26% 3px,33% 11px,40% 2px,47% 13px,54% 4px,61% 12px,68% 3px,75% 14px,82% 5px,89% 12px,95% 3px,100% 10px,100% calc(100% - 10px),94% calc(100% - 3px),88% calc(100% - 13px),81% calc(100% - 4px),74% calc(100% - 12px),66% calc(100% - 2px),58% calc(100% - 14px),50% calc(100% - 4px),42% calc(100% - 11px),34% calc(100% - 3px),26% calc(100% - 13px),18% calc(100% - 5px),10% calc(100% - 12px),4% calc(100% - 3px),0 calc(100% - 10px))}
+#tentang{margin-top:-60px;padding:90px 0 80px;text-align:center}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase}
+h2.big{font-family:var(--brush);color:var(--pink);font-weight:400;font-size:clamp(26px,4vw,40px);margin:6px 0 46px;transform:rotate(-1.5deg);text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:3px}
+.vals{display:grid;grid-template-columns:repeat(5,1fr)}
+.val{padding:6px 18px;border-left:1px solid rgba(255,255,255,.22)}
+.val:first-child{border-left:0}
+.val svg{width:38px;height:38px;stroke:var(--pink);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;margin-bottom:14px}
+.val h3{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+.val p{font-size:13px;color:#cfcfcf}
+ 
+/* HOBI */
+#hobi{padding:70px 0 110px}
+#hobi .wrap{display:grid;grid-template-columns:.8fr 2.2fr;gap:36px;align-items:center}
+.chip{display:inline-block;background:var(--black);color:var(--white);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:8px 14px;margin-bottom:22px}
+#hobi h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(30px,4vw,44px);line-height:1.05}
+#hobi h2 .brush{display:block;font-size:1.25em;text-transform:none;transform:rotate(-4deg);margin-top:6px}
+#hobi .intro{margin:20px 0 26px;font-size:14px;max-width:300px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.card{background:#ebe5dd;border:1px solid #d9d1c6;padding:0 0 14px;transition:transform .2s}
+.card:hover{transform:translateY(-6px)}
+.card .top{background:var(--black);color:var(--white);padding:14px 12px 12px;text-align:center}
+.card .top small{display:block;font-family:var(--display);font-size:22px;line-height:1;text-transform:uppercase}
+.card .top .brush{font-size:19px;display:block;transform:rotate(-3deg)}
+.card .pic{margin:0;background:var(--black);padding:0 10px 10px}
+.card img{width:100%;aspect-ratio:1/1.15;object-fit:cover;border:5px solid var(--white);transform:rotate(-1.5deg)}
+.card:nth-child(even) img{transform:rotate(1.5deg)}
+.card p{font-size:12px;padding:12px 14px 0;color:#333}
+.card .kat{display:block;margin:10px 14px 0;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pink)}
+ 
+/* KONTAK */
+#kontak{padding:80px 0 80px;margin-top:-50px}
+#kontak .wrap{display:grid;grid-template-columns:.8fr 1.2fr .9fr;gap:30px;align-items:center}
+.phone{position:relative;width:min(100%,230px);margin:0 auto;border:7px solid #2a2a2a;border-radius:34px;background:var(--black);overflow:hidden;box-shadow:0 0 0 2px #444;transform:rotate(-4deg)}
+.phone img{width:100%;aspect-ratio:9/16;object-fit:cover}
+.phone .bar{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 16px;background:linear-gradient(transparent,rgba(0,0,0,.9));font-family:var(--display);font-size:24px;line-height:1;text-transform:uppercase}
+.phone .bar span{display:block;font-family:var(--brush);color:var(--pink);text-transform:none;font-size:20px}
+.new{position:absolute;left:-14px;top:-24px;background:var(--pink);color:var(--white);font-family:var(--hand);font-weight:700;font-size:22px;line-height:1;padding:14px 16px;transform:rotate(-6deg);z-index:3;clip-path:polygon(0 4%,100% 0,97% 100%,3% 94%)}
+.phone-box{position:relative}
+.kontak h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(28px,4vw,40px);line-height:1.05}
+.kontak h2 span{color:var(--pink)}
+.kontak .sub{margin:10px 0 6px;font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.kontak .sub b{color:var(--pink)}
+.kontak p.d{font-size:14px;color:#cfcfcf;max-width:380px;margin-bottom:22px}
+.links{display:flex;flex-wrap:wrap;gap:12px}
+.pol{justify-self:center;position:relative;width:min(100%,250px)}
+.pol .in{background:var(--white);padding:12px 12px 40px;transform:rotate(3deg);box-shadow:0 14px 30px rgba(0,0,0,.5)}
+.pol img{width:100%;aspect-ratio:1/1.1;object-fit:cover}
+.pol .cap{position:absolute;left:0;right:0;bottom:8px;text-align:center;font-family:var(--hand);font-weight:700;font-size:22px;color:var(--black);transform:rotate(3deg)}
+.pol .go{position:absolute;right:-28px;top:-14px;font-family:var(--hand);font-weight:700;font-size:24px;line-height:1;color:var(--pink);transform:rotate(8deg);text-align:center;z-index:2}
+ 
+/* FOOTER */
+footer{background:var(--pink);color:var(--white);padding:22px 0}
+footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer .l{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+footer .l span{display:block;font-family:var(--brush);font-size:24px;text-transform:none;letter-spacing:0;margin-top:2px}
+footer .m{font-size:13px;max-width:360px}
+footer .s{display:flex;gap:14px;align-items:center;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+footer .s a{border:2px solid var(--white);padding:7px 12px}
+footer .s a:hover{background:var(--white);color:var(--pink)}
+.copy{background:var(--black);color:#aaa;font-size:11px;text-align:center;padding:10px}
+ 
+/* RESPONSIVE */
+@media(max-width:980px){
+nav ul{display:none}
+.hero .wrap{grid-template-columns:1fr}
+.photo{margin-top:40px}
+.note{right:-6px}
+.sticker{right:-6px;width:110px;height:110px}
+.vals{grid-template-columns:repeat(2,1fr);row-gap:30px}
+.val:nth-child(3){border-left:0}
+.val:last-child{grid-column:1/-1;border-left:0}
+#hobi .wrap{grid-template-columns:1fr}
+#hobi .intro{max-width:none}
+.cards{grid-template-columns:repeat(2,1fr)}
+#kontak .wrap{grid-template-columns:1fr;text-align:center;gap:50px}
+.kontak p.d{margin-left:auto;margin-right:auto}
+.links{justify-content:center}
+footer .wrap{justify-content:center;text-align:center}
+}
+@media(max-width:520px){
+.wrap{padding:0 20px}
+.cards{grid-template-columns:1fr 1fr;gap:10px}
+.card p{font-size:11px;padding:10px 10px 0}
+.spray{display:none}
+.hero{padding-bottom:140px}
+}
+@media(prefers-reduced-motion:reduce){.sticker{animation:none}html{scroll-behavior:auto}.btn,.card{transition:none}}
+</style>
+</head>
+<body>
+ 
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top">Hanik<span>Nafisah</span></a>
+    <ul>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#hobi">Hobi &amp; Minat</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+    <a class="btn" href="#kontak">Hubungi Aku</a>
+  </div>
+</nav>
+ 
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <span class="tag">Untuk kamu yang ingin kenal lebih dekat <b>&nbsp;Hanik&nbsp;</b></span>
+      <h1>Curious mind.<br>Gentle heart.<span class="brush">Endless dreams.</span></h1>
+      <p class="lead">Aku Hanik Nafisah, mahasiswa Manajemen Informasi. Menyukai hal-hal sederhana dan percaya bahwa setiap proses punya waktunya sendiri.
+        <em>Simple. Tulus. Apa adanya.</em></p>
+      <div class="cta">
+        <a class="btn" href="#tentang">Kenalan <span aria-hidden="true">&rarr;</span></a>
+        <span class="hand">cerita aku dimulai di sini</span>
+      </div>
+    </div>
+    <div class="photo">
+      <svg class="spray" viewBox="0 0 200 200" aria-hidden="true"><path d="M100 14 L124 80 L190 82 L138 122 L158 186 L100 148 L42 186 L62 122 L10 82 L76 80 Z" fill="none" stroke="#ec2f85" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" opacity=".85"/></svg>
+      <div class="frame">
+        <span class="tape"></span>
+        <img src="hero.jpeg" alt="Foto Hanik Nafisah" width="600" height="820">
+      </div>
+      <div class="note">Penasaran<br>Lembut<br>Berani mimpi<br>Suka explore</div>
+      <svg class="sticker" viewBox="0 0 140 140" aria-hidden="true">
+        <circle cx="70" cy="70" r="68" fill="#ec2f85"/>
+        <circle cx="70" cy="70" r="49" fill="#0d0d0d"/>
+        <defs><path id="ring" d="M70,70 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/></defs>
+        <text font-family="Inter,Arial,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.6" fill="#0d0d0d"><textPath href="#ring">SETIAP PROSES PUNYA WAKTUNYA ✦ SETIAP PROSES PUNYA WAKTUNYA ✦</textPath></text>
+        <circle cx="70" cy="70" r="40" fill="#ec2f85"/>
+        <circle cx="56" cy="62" r="4" fill="#0d0d0d"/><circle cx="84" cy="62" r="4" fill="#0d0d0d"/>
+        <path d="M50 78 Q70 98 90 78" fill="none" stroke="#0d0d0d" stroke-width="5" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </div>
+</header>
+ 
+<section class="black" id="tentang">
+  <div class="wrap">
+    <p class="eyebrow">Ini bukan sekadar profil.</p>
+    <h2 class="big">It's a whole new me.</h2>
+    <div class="vals">
+      <div class="val">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+        <h3>Nama</h3><p>Hanik Nafisah</p>
+      </div>
+      <div class="val">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <h3>Asal</h3><p>Sleman, lahir 28 Juni 2007</p>
+      </div>
+      <div class="val">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/></svg>
+        <h3>Program Studi</h3><p>Manajemen Informasi</p>
+      </div>
+      <div class="val">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6z"/><path d="M9 8a3 3 0 016 0"/></svg>
+        <h3>Hobi</h3><p>Berkelana dan belanja</p>
+      </div>
+      <div class="val">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg>
+        <h3>Minat</h3><p>Explore hal-hal baru</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<section id="hobi">
+  <div class="wrap">
+    <div>
+      <span class="chip">Hobi &amp; minat</span>
+      <h2>Hal sederhana <span class="brush">bikin bahagia.</span></h2>
+      <p class="intro">Dari jalan-jalan ke tempat baru sampai belanja hal kecil yang bikin senang. Ini sebagian dari dunia aku.</p>
+      <a class="btn" href="#kontak">Ayo ngobrol <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="top"><small>Berkelana</small><span class="brush">Hobi</span></div>
+        <figure class="pic"><img src="gambar1.jpeg" alt="Foto Hanik saat berkelana" loading="lazy"></figure>
+        <p>Menjelajah tempat baru dan menikmati perjalanannya.</p>
+        <span class="kat">Hobi</span>
+      </article>
+      <article class="card">
+        <div class="top"><small>Belanja</small><span class="brush">Hobi</span></div>
+        <figure class="pic"><img src="gambar2.jpeg" alt="Foto Hanik saat belanja" loading="lazy"></figure>
+        <p>Mencari barang yang bikin senang dan gaya yang pas.</p>
+        <span class="kat">Hobi</span>
+      </article>
+      <article class="card">
+        <div class="top"><small>Explore</small><span class="brush">Minat</span></div>
+        <figure class="pic"><img src="gambar3.jpeg" alt="Foto Hanik saat explore" loading="lazy"></figure>
+        <p>Selalu penasaran mencoba hal dan tempat yang belum pernah didatangi.</p>
+        <span class="kat">Minat</span>
+      </article>
+      <article class="card">
+        <div class="top"><small>Momen</small><span class="brush">Kenangan</span></div>
+        <figure class="pic"><img src="gambar4.jpeg" alt="Momen kenangan Hanik" loading="lazy"></figure>
+        <p>Menyimpan momen-momen kecil yang berarti.</p>
+        <span class="kat">Cerita</span>
+      </article>
+    </div>
+  </div>
+</section>
+ 
+<section class="black" id="kontak">
+  <div class="wrap">
+    <div class="phone-box">
+      <span class="new">Yuk<br>kenalan!</span>
+      <div class="phone">
+        <img src="gambarbawah.jpeg" alt="Foto Hanik di layar ponsel" loading="lazy">
+        <div class="bar">Hanik<span>Nafisah</span></div>
+      </div>
+    </div>
+    <div class="kontak">
+      <h2>Hubungi <span>Hanik</span></h2>
+      <p class="sub">Santai aja. <b>Sapa aku kapan saja.</b></p>
+      <p class="d">Mau berteman, tukar cerita, atau sekadar menyapa? Pilih salah satu cara di bawah ini.</p>
+      <div class="links">
+        <a class="btn pk" href="https://wa.me/6282241952284" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn pk" href="https://www.instagram.com/haniknnafisah" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn pk" href="https://www.tiktok.com/@niknayaa" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </div>
+    <div class="pol">
+      <span class="go">go explore<br>or stay home.</span>
+      <div class="in"><img src="gambarbawah2.jpeg" alt="Foto kenangan Hanik" loading="lazy"></div>
+      <span class="cap">me, being me</span>
+    </div>
+  </div>
+</section>
+ 
+<footer>
+  <div class="wrap">
+    <div class="l">Siap kenal lebih jauh?<span>Let's explore together.</span></div>
+    <p class="m">Terima kasih sudah mampir. Sampai jumpa di cerita berikutnya.</p>
+    <div class="s">
+      <span>Ayo berteman</span>
+      <a href="https://www.instagram.com/haniknnafisah" target="_blank" rel="noopener">IG</a>
+      <a href="https://www.tiktok.com/@niknayaa" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://wa.me/6282241952284" target="_blank" rel="noopener">WA</a>
+    </div>
+  </div>
+</footer>
+<div class="copy">&copy; 2026 Hanik Nafisah &middot; Manajemen Informasi</div>
+ 
+</body>
+</html>
